@@ -1,0 +1,19 @@
+<template class="hero">
+  <header class="masthead">
+    <div class="container">
+      <div class="masthead-subheading">Welcome To SandBox Power!</div>
+      <div class="masthead-heading text-uppercase">Nice to meet you</div>
+      <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
+    </div>
+  </header>
+</template>
+
+<script>
+export default {
+  name: "Hero"
+}
+</script>
+
+<style scoped>
+
+</style>
