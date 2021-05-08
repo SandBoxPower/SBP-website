@@ -30,8 +30,7 @@ export default {
         const dt = await this.$firebase.getLog()
         this.logs = dt.docs.map(item => item.data())
       } finally {
-        console.log('load')
-        console.log(this.logs)
+        console.log('loading')
       }
     }
   },

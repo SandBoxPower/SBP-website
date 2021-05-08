@@ -6,6 +6,8 @@
     <DevelopLogs />
     <AboutPage />
     <TeamPage />
+    <Feedback />
+    <Footer />
   </div>
 </template>
 
@@ -18,10 +20,12 @@ import DevelopLogs from "@/views/Log/DevelopLogs";
 import HomePage from "@/views/Home/HomePage";
 import AboutPage from "@/views/Progress/ProgressPage";
 import TeamPage from "@/views/Team/TeamPage";
+import Feedback from "@/views/Feedback/Feedback";
+import Footer from "@/components/Footer"
 export default {
   name: 'App',
   components: {
-    NavBar, HomePage, Services, DevelopLogs, AboutPage, TeamPage
+    NavBar, HomePage, Services, DevelopLogs, AboutPage, TeamPage, Feedback, Footer
   },
   data() {
     return {

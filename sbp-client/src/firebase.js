@@ -27,3 +27,16 @@ export async function getProgress() {
 export async function getTeam() {
     return await db.collection('team').get()
 }
+
+export async function getFeedback() {
+    return await db.collection('feedback').get()
+}
+
+export async function createFeedback(dt) {
+    return await db.collection('feedback').add({
+        content: dt.content,
+        guestname: dt.guestname,
+        rate: Number(dt.rate),
+        response: "",
+    })
+}

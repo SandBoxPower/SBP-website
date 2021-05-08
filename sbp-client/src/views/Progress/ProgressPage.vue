@@ -41,7 +41,7 @@ export default {
         this.progress = dt.docs.map(item => item.data())
       } finally {
         console.log('load')
-        console.log(this.progress)
+
       }
     }
   },
