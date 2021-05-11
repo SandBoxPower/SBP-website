@@ -14,7 +14,6 @@
                 <p>{{log.content}}</p>
                 <ul class="list-inline">
                   <li>Date: {{log.date}}</li>
-                  <li>Client: Threads</li>
                   <li>Category: {{log.category}}</li>
                 </ul>
                 <button class="btn btn-primary" data-dismiss="modal" type="button" v-on:click="handleClick">
