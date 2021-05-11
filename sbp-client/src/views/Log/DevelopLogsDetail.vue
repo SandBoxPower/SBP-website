@@ -10,7 +10,7 @@
                 <!-- Project Details Go Here-->
                 <h2 class="text-uppercase">{{ log.title }}</h2>
                 <p class="item-intro text-muted">{{ log.subtitle }}</p>
-                <img class="img-fluid d-block mx-auto" :src="log.imgInner" alt="..." />
+                <img class="img-fluid d-block mx-auto" v-for="img in log.imgInner" :key="img" :src="img" alt="..." />
                 <p>{{log.content}}</p>
                 <ul class="list-inline">
                   <li>Date: {{log.date}}</li>

@@ -8,7 +8,7 @@
       <a class="btn btn-info btn-xl text-uppercase js-scroll-trigger" v-on:click="lightbox_open">
         Watch Video <i class="far fa-play-circle"></i>
       </a>
-      <a class="btn btn-success btn-xl text-uppercase js-scroll-trigger" href="#services">
+      <a class="btn btn-success btn-xl text-uppercase js-scroll-trigger" href="https://yuhanj.itch.io/tantan" target="_blank">
         Download <i class="fas fa-download"></i>
       </a>
     </div>
